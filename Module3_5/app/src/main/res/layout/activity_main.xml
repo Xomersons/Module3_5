@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/equationOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Equation One"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/solvingOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/equationOne"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="44dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/equationTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/solvingOne"
+        android:text="Equation Two"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/solvingTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/equationTwo"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="44dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/equationThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/solvingTwo"
+        android:text="Equation Three"
+        tools:layout_editor_absoluteX="260dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/solvingThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/equationThree"
+        tools:layout_editor_absoluteX="295dp"
+        tools:layout_editor_absoluteY="44dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/solvingThree"
+        android:text="Update Examples"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="144dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/exampleEditText"
+        android:layout_width="161dp"
+        android:layout_height="42dp"
+        android:layout_below="@id/updateButton"
+        android:hint="Enter Example Here"
+        android:text=""
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="89dp"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
